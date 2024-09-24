@@ -1,0 +1,8 @@
+{
+    "sigma": 1.3000000000000003,
+    "learning_rate": 3.400000000000001,
+    "n_neurons": 32,
+    "random_seed": 0,
+    "neighborhood_function": "gaussian",
+    "topology": "rectangular"
+}
