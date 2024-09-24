@@ -8,10 +8,12 @@ I will assume you have a basic understanding of SOMs. If you don't, I recommend 
 ### 1. Metrics of efficiency
 #### 1.1 Quantization error
 Quantization error is the main metrics to be looked at when tuning the hyperparameters. It represents the average distance between each input vector and its corresponding winning neuron. If the quantization error is 0, then the SOM perfectly represents the input data.
+
 Formula:
-$$
+\[
 QE = \frac{1}{N} \sum_{i=1}^{N} ||x_i - w_{c,i}||
-$$
+\]
+
 where:
 - $N$ is the number of observations
 - $x_i$ is the $i$-th sample
@@ -25,9 +27,11 @@ Based on this principle, we will tune the hyperparameters based on maps of equal
 
 #### 1.2 Topographic error
 Last but not least, the topographic error is calculated as the fraction of samples whose best and second-best matching units are not neighbors on the map. Formula retrived from [[Forest, 2020](https://arxiv.org/abs/2011.05847)][^1]:
-$$
+
+\[
 \text{TE} = \frac{1}{N} \sum_{i=1}^{N} \mathbf{1}_{\delta(b1_i, b2_i) > 1}
-$$
+\]
+
 where:
 - $N$ is the number of samples
 - $\mathbf{1}_{\delta(b1_i, b2_i) > 1}$ is the indicator function that is 1 if the first and second best matching units are not adjacent, 0 otherwise
