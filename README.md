@@ -68,11 +68,11 @@ Moreover, we can visualize the map using the class `Visualization`. Besides the 
 #### U-matrix Visualizations
 <div style="display: flex; justify-content: space-between;">
     <div style="text-align: center;">
-        <img src="image.png" alt="U-matrix with target" style="width: 45%;"/>
+        <img src="data/figures/u_matrix.png" alt="U-matrix with target" style="width: 45%;"/>
         <p>U-matrix with target</p>
     </div>
     <div style="text-align: center;">
-        <img src="image-1.png" alt="U-matrix with k-means clustering" style="width: 45%;"/>
+        <img src="data/figures/k_means.png" alt="U-matrix with k-means clustering" style="width: 45%;"/>
         <p>U-matrix with k-means clustering</p>
     </div>
 </div>
@@ -80,11 +80,11 @@ Moreover, we can visualize the map using the class `Visualization`. Besides the 
 #### PCA Visualizations
 <div style="display: flex; justify-content: space-between;">
     <div style="text-align: center;">
-        <img src="image-2.png" alt="Initial weights under PCA with target" style="width: 45%;"/>
+        <img src="data/figures/pca_init.png" alt="Initial weights under PCA with target" style="width: 45%;"/>
         <p>Initial weights under PCA with target</p>
     </div>
     <div style="text-align: center;">
-        <img src="image-3.png" alt="Final weights under PCA with target" style="width: 45%;"/>
+        <img src="data/figures/pca_final.png" alt="Final weights under PCA with target" style="width: 45%;"/>
         <p>Final weights under PCA with target</p>
     </div>
 </div>
